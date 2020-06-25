@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             xmlns:local="clr-namespace:GettingStarted"
+             x:Class="GettingStarted.MainPage">
+
+    <ContentPage.Content>
+        
+        <Grid>
+            <gradient:SfGradientView>
+                <gradient:SfGradientView.BackgroundBrush>
+                    <gradient:SfRadialGradientBrush Center="0, 0.5" Radius="1">
+                        <gradient:SfRadialGradientBrush.GradientStops>
+                            <gradient:SfGradientStop Color="Red" Offset="0.0" />
+                            <gradient:SfGradientStop Color="Yellow" Offset="0.5" />
+                            <gradient:SfGradientStop Color="LightGreen" Offset="1.0" />
+                        </gradient:SfRadialGradientBrush.GradientStops>
+                    </gradient:SfRadialGradientBrush>
+                </gradient:SfGradientView.BackgroundBrush>
+            </gradient:SfGradientView>
+        </Grid>
+
+    </ContentPage.Content>
+
+</ContentPage>
